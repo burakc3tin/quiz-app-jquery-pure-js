@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soru Cevap Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.png">
+
+</head>
+<body>
+    
+    <h1>Soru Cevap Uygulaması❓</h1>
+    <div id="soru-alani">
+        <h2>Soru - <span id="soruno">1</span></h2>
+        <p id="soru"></p>
+        <ul id="siklar"></ul>
+        <button id="sonraki-soru">Sonraki Soru👉</button>
+    </div>
+    <div id="sonuc-alani" style="display: none;">
+        <h2>Sonuçlar📝</h2>
+        <p style="display: none;" id="puan-yazi">Skor: <span id="puan"></span></p>
+         <p id="onceki-puan-yazi">Önceki Skor: <span id="onceki-puan"></span></p>
+    </div>
+      <script
+    src="https://code.jquery.com/jquery-3.7.0.js"
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>    <script src="script.js"></script>
+</body>
+</html>

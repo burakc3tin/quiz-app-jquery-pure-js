@@ -1,0 +1,70 @@
+*{
+    background-color: #EE6744;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    
+    box-sizing: border-box;
+}
+
+body{
+    height: 90vh;
+     
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+ul{
+    padding-right: 40px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+#onceki-puan-yazi
+{
+    color:#F9EB96;
+    font-weight: 600;
+
+}
+
+#onceki-puan {
+    color:#F9EB96;
+    font-weight: 600;
+
+}
+
+#sonraki-soru{
+    width: 40vw;
+    border: none;
+    padding: 10px;
+    margin:10px;
+    border-radius: 30px;
+    background-color: #b45139;
+    cursor: pointer;
+}
+
+#sonraki-soru:hover{
+    width: 40vw;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #c95c40;
+}
+
+#soru-alani{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sonuc-alani{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
